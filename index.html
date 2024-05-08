@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prettygal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jacquard+24&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxygen:wght@300;400;700&family=Sedan:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cilfford: "#ade373d",
+              primarycolor: "#BFE0E3",
+              secondarycolor: "#3f51b5",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <!-- NavBar  -->
+    <header class="fixed w-full p-0 m-0">
+      <div
+        class="my-0 px- py-2 flex justify-between bg-stone-300 cursor-pointer"
+      >
+        <div>
+          <a href="#"><ion-icon name="search"></ion-icon></a>Search
+        </div>
+        <div>
+          <a href="#"><ion-icon name="contact"></ion-icon></a
+          ><a href="#">Log In</a>
+        </div>
+        <!-- Sidebar -->
+      </div>
+      <nav
+        class="px-15 py-5 flex justify-between bg-stone-600 text-gray-300 sm:flex"
+      >
+        <h2 class="ml-10 font-bold">PRETTY GAL</h2>
+        <div class="hidden md:flex">
+          <div
+            class="nt-1 block ml-10 px-2 py-1 font-semibold hover: rounded cursor-pointer"
+          >
+            <a href="#">Home</a>
+          </div>
+          <div
+            class="nt-1 block ml-10 px-2 py-1 font-semibold hover: rounded cursor-pointer"
+          >
+            <a href="#">Shop</a>
+          </div>
+          <div
+            class="nt-1 block ml-10 px-2 py-1 font-semibold hover: rounded cursor-pointer"
+          >
+            <a href="#">Sale</a>
+          </div>
+          <div
+            class="nt-1 block ml-10 px-2 py-1 font-semibold hover: rounded cursor-pointer"
+          >
+            <a href="#">Customer Care</a>
+          </div>
+          <div
+            class="nt-1 block ml-10 px-2 py-1 font-semibold hover: rounded cursor-pointer"
+          >
+            <a href="#">Stockists</a>
+          </div>
+        </div>
+      </nav>
+      <!-- navend  -->
+    </header>
+    <!-- Main Page  -->
+    <div
+      class="px-20 py-5 font-bold text-stone-700 w-[100vw] h-[75vh] bg-[url('https://images.unsplash.com/photo-1567958451986-2de427a4a0be?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-center bg-cover bg-no-repeat object-contain md:object-scale-down"
+    >
+      <div class="flex justify-center items-center h-full">
+        <div class="h-[200px]">
+          <h1 class="text-6xl font-sans md:font-serif font-bold leading-normal">
+            FALL & WINTER
+          </h1>
+          <a
+            href="#"
+            class="bg-stone-300 rounded-3x1 m-4 py-2 px-4 font-medium inline-block mr-15 hover:bg-transparent hover:border-stone-300 hover:text-black duration-300 hover:border border border-transparent max-w-[120px]"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center bg-gray-300 font-medium">
+      <p>FREE SHIPPING WOLDWIDE</p>
+    </div>
+    <!-- Display Items  -->
+    <div class="flex flex-wrap justify-evenly bg-white">
+      <img
+        src="https://images.unsplash.com/photo-1611222777277-61319d63ca94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWNjZXNzb3J5fGVufDB8fDB8fHww"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1592840054664-6bc0f6fbc3d6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGxvdWlzJTIwdnVpdHRvbnxlbnwwfHwwfHx8MA%3D%3D"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1587538521292-14a32bc9fe0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGxvdWlzJTIwdnVpdHRvbnxlbnwwfHwwfHx8MA%3D%3D"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1587466280419-78d7adc6d4a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxsb3VpcyUyMHZ1aXR0b258ZW58MHx8MHx8fDA%3D"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+      <img
+        src="https://plus.unsplash.com/premium_photo-1681276170299-a2b3dc29b833?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGx1eHVyeXxlbnwwfHwwfHx8MA%3D%3D"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvdWlzJTIwdnVpdHRvbnxlbnwwfHwwfHx8MA%3D%3D"
+        class="h[7rem] w-[10rem]"
+        alt=""
+      />
+      <!-- <img src="https://images.unsplash.com/photo-1591348278999-ee1d0c06ed7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHxsdXh1cnl8ZW58MHx8MHx8fDA%3D" class="h-[7rem] w-[10rem]" alt=""> -->
+      <img
+        src="https://images.unsplash.com/photo-1545776771-0a6367761ff3?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bG91aXMlMjB2dWl0dG9ufGVufDB8fDB8fHww"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+      <!-- <img src="https://images.unsplash.com/photo-1611222777277-61319d63ca94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWNjZXNzb3J5fGVufDB8fDB8fHww" class="h-[7rem] w-[10rem]" alt=""> -->
+      <img
+        src="https://images.unsplash.com/photo-1611558709798-e009c8fd7706?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZhc2hpb24lMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D"
+        class="h-[7rem] w-[10rem]"
+        alt=""
+      />
+    </div>
+
+    <div>
+      <div class="flex justify-center items-center py-10">
+        <h1 class="text-3xl font-sans md:font-serif font-bold leading-normal">
+          YEAR ROUND
+        </h1>
+      </div>
+      <div class="flex justify-center font-bold">Must Have Items</div>
+    </div>
+    <!-- Sales Image   -->
+    <div
+      class="w-sm shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 cursor-pointer flex justify-center text"
+    >
+      <img
+        src="https://images.unsplash.com/photo-1526178613552-2b45c6c302f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGlzY291bnR8ZW58MHx8MHx8fDA%3D"
+        alt=""
+        width="400px"
+        height="200px"
+      />
+    </div>
+
+    <!-- Footer Start  -->
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+      <div
+        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      >
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2024
+          <a href="https://prettygal.com/" class="hover:underline">PrettyGal™</a
+          >. All Rights Reserved.
+        </span>
+        <ul
+          class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+        >
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Footer Ends  -->
+  </body>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</html>
